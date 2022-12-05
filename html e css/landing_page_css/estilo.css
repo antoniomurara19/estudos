@@ -1,0 +1,144 @@
+@import"https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200;300;400&display=swap";
+
+*{
+    margin: 0; 
+    padding: 0; 
+    border: 0; 
+    font-size: 100%; 
+    font-family: "Source Sans Pro", sans-serif; 
+    font-weight: 300; 
+    vertical-align: baseline; 
+    text-decoration: none; 
+    list-style: none;
+}
+
+#texto{
+    width: 100%;
+}
+
+fieldset { 
+    width: 80%; 
+    padding: 10px 0 20px; 
+    margin-left: 40px; 
+    border: 2px solid lightblue; 
+    border-radius: 10px; 
+    padding: 20px; 
+}
+
+.linha { 
+    display: flex; 
+    flex-direction: row; 
+   }
+
+header section { 
+    justify-content: space-between; 
+    align-items: center;
+    margin-left: 10px;
+    margin-bottom: 10px; 
+}
+
+header nav ul { 
+    display: flex; 
+    flex-direction: row; 
+    align-items: center; 
+}
+header nav ul li a { 
+    margin: 0px 15px; 
+}   
+
+#a a{
+    margin-right: 100px;
+    margin-left: 100px;
+    background: #30C5CC; 
+    padding: 5px 30px; 
+    color: white;
+    border-radius: 10px; 
+}
+
+fieldset {
+    display: flex;
+    flex-direction: column;
+    padding-top: 10px;
+   }
+
+.longo{ 
+    font-family: inherit; 
+    line-height: 1.15; 
+    border: 2px solid lightblue;
+    border-radius: 10px; 
+    padding-bottom: 10px; 
+    padding-left: 15px; 
+    padding-right: 15px; 
+    padding-top: 10px; 
+    width: 90%;
+}
+
+.longo:focus{
+    outline: none; 
+    box-shadow: 0 0 0 0.2rem rgb(173, 216, 230, 0.5);
+}
+
+.longo.mensagem { 
+    resize: none; 
+}
+
+button.b    {
+    background: #30C5CC; 
+    padding: 5px 30px; 
+    color: white;
+    border-radius: 10px; 
+}
+
+main,fieldset{
+    display: inline-block;
+}
+
+main{
+    justify-content: space-between; 
+    align-items: center; 
+    width: 350px;  
+    margin-left: 15px;
+}
+
+main h1{
+    font-size: 70px; 
+    line-height: 90%; 
+    font-weight: 400; 
+    color: #336; 
+}
+
+main h2{
+    font-size: 30px; 
+    text-transform: uppercase; 
+    letter-spacing: 2px; 
+    line-height: 200%; 
+}
+
+main h2, main p {
+    color: #39c;
+}
+
+label { 
+    padding-bottom: 2.5px; 
+    padding-top: 20px; 
+    font-weight: 600; 
+}   
+
+footer { 
+    margin: 30px;
+}
+
+footer ul li a img { 
+    width: 40px;
+    margin: 20px; 
+}
+
+.linha{
+display: flex;
+    flex-direction: row;
+}
+
+.agrupamento{
+    display: inline-block;
+    width: 1000px;
+}
