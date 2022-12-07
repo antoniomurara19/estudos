@@ -1,0 +1,45 @@
+a{ font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+}
+
+img#antonio:hover{
+    transition: 1s;
+    background-color: black;
+    border-radius: 20%;
+}
+
+a.atividade:hover{
+background-color: rgb(154, 255, 129);
+transition: 1s;
+opacity: 0.9;
+border-radius: 90%;
+}
+
+h1{font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 60px;
+    text-align: center;
+}
+
+header{
+background-image: linear-gradient(to top, yellow,red); 
+margin-left:-8px; 
+margin-top: -8px;
+margin-right: -7px;  
+}
+
+body{
+    background-image: url("img/full.gif");
+    background-size: 100%;
+}
+
+ol{font-size: 20px;
+    color: white;
+}
+
+
+
+
+

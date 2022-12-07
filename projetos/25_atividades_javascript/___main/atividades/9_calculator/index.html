@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Antônio Murara Zabala">
+    <script src="index.js"defer></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Calculadora diferenciada</title>
+</head>
+<body><header><br><h1 style="font-family:helvetica;text-align: center;">Uma Calculadora Diferenciada</h1>
+
+    <h2 style="text-align:center;">Digite a tecla correspondente para a tal operação, e seus dois números!!</h2><br></header><br>
+
+    <p style="text-align:center;font-size:30px">A ou a = soma <br><br>
+            S ou s = subtração <br><br>
+        M ou m = vezes <br><br>
+    D ou d = divisão</p>
+    
+    
+    <br><input style="text-align:center;padding:69px;text-align:center;" type="text" id="cor"><br><br>
+
+    <label for="num1">Digite: </label>
+    <input type="number" id="num1"><br><br>
+
+    <label for="num2">Digite: </label>
+    <input type="number" id="num2"><br><br>
+    
+    <button onclick="calculo()">CALCULAR</button>
+
+    <p id="escrever" style="text-align:center;font-size:30px"></p>
+    <p id="soma" style="text-align:center;font-size:30px"></p>
+    <p id="menos" style="text-align:center;font-size:30px"></p>
+    <p id="vezes" style="text-align:center;font-size:30px"></p>
+    <p id="divisao" style="text-align:center;font-size:30px"></p>
+</body>
+</html>

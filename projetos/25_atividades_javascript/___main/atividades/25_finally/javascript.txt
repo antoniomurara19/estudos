@@ -1,0 +1,124 @@
+function calculo(){
+    let cq=7.9,mq=5.75,b=11.35,cb=14.6,ce=15.4,cf=12.9,r=4.9,s=4.3,c=3.5,cl=4.2
+    
+        tecla = document.getElementById("comida").value
+        quantidade = Number(document.getElementById("qnt").value)
+        compras = document.getElementById("compras")
+        
+        res1 = document.getElementById("resultado1")
+        res2 = document.getElementById("resultado2")
+        res3 = document.getElementById("resultado3")
+        res4 = document.getElementById("resultado4")
+        res5 = document.getElementById("resultado5")
+        res6 = document.getElementById("resultado6")
+        res7 = document.getElementById("resultado7")
+        res8 = document.getElementById("resultado8")
+        res9 = document.getElementById("resultado9")
+        res10 = document.getElementById("resultado10")
+        res11 = document.getElementById("semresposta")
+
+        switch (tecla) {
+            case "CQ" :
+                fim1 = cq * quantidade
+                res1.innerHTML = "Ficou R$" + fim1.toFixed(1) + " de cachorro quente(s)"
+                break;
+            case "cq":
+                fim1 = cq * quantidade
+                res1.innerHTML = "Ficou R$" + fim1.toFixed(1) + " de cachorro quente(s)"
+                break;
+                
+
+            case "MQ" : 
+                fim2 = mq * quantidade
+                res2.innerHTML = "Ficou R$" + fim2.toFixed(1) + " de misto quente(s)"
+                break;
+            case "mq" : 
+                fim2 = mq * quantidade
+                res2.innerHTML = "Ficou R$" + fim2.toFixed(1) + " de misto quente(s)"
+                    break;
+
+
+            case "B" :
+                fim3 = b * quantidade
+                res3.innerHTML = "Ficou R$" + fim3.toFixed(1) + " de bauru(s)"
+                break;
+            case "b" :
+                fim3 = b * quantidade
+                res3.innerHTML = "Ficou R$" + fim3.toFixed(1) + " de bauru(s)"
+                break;
+
+
+            case "CB" :
+                fim4 = cb * quantidade
+                res4.innerHTML = "Ficou R$" + fim4.toFixed(1) + " de cheese burguer(s)"
+                break;
+            case "cb" :
+                fim4 = cb * quantidade
+                res4.innerHTML = "Ficou R$" + fim4.toFixed(1) + " de cheese burguer(s)"
+                break;
+
+
+            case "CE" : 
+                fim5 = ce * quantidade
+                res5.innerHTML = "Ficou R$" + fim5.toFixed(1) + " de cheese egg(s)"
+                break;
+            case "ce" : 
+                fim5 = ce * quantidade
+                res5.innerHTML = "Ficou R$" + fim5.toFixed(1) + " de cheese egg(s)"
+                break;
+
+
+            case "CF" :
+                fim6 = cf * quantidade
+                res6.innerHTML = "Ficou R$" + fim6.toFixed(1) + " de cheese frango(s)"
+                break;
+            case "cf" :
+                fim6 = cf * quantidade
+                res6.innerHTML = "Ficou R$" + fim6.toFixed(1) + " de cheese frango(s)"
+                break;
+
+
+            case "R"  :
+                fim7 = r * quantidade
+                res7.innerHTML = "Ficou R$" + fim7.toFixed(1) + " de refrigerante(s)"
+                break;
+            case "r" :
+                fim7 = r * quantidade
+                res7.innerHTML = "Ficou R$" + fim7.toFixed(1) + " de refrigerante(s)"
+                break;
+
+
+            case "S" : 
+                fim8 = s * quantidade
+                res8.innerHTML = "Ficou R$" + fim8.toFixed(1) + " de suco de frutas(s)"
+                break;
+            case "s" : 
+                fim8 = s * quantidade
+                res8.innerHTML = "Ficou R$" + fim8.toFixed(1) + " de suco de frutas(s)"
+                break;
+
+
+            case "C" : 
+                fim9 = c * quantidade
+                res9.innerHTML = "Ficou R$" + fim9.toFixed(1) + " de café médio(s)"
+                break;
+            case "c" : 
+                fim9 = c * quantidade
+                res9.innerHTML = "Ficou R$" + fim9.toFixed(1) + " de café médio(s)"
+                break;
+
+
+            case "CL" : 
+                fim10 = cl * quantidade
+                res10.innerHTML = "Ficou R$" + fim10.toFixed(1) + " de café com leite(s)"
+                break;
+            case "cl" : 
+                fim10 = cl * quantidade
+                res10.innerHTML = "Ficou R$" + fim10.toFixed(1) + " de café com leite(s)"
+                break;
+            default:
+                res11.innerHTML = "Seu código é inválido"
+                break;
+        }
+    }
+   

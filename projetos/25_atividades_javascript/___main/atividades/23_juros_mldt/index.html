@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Antônio Murara Zabala">
+    <link rel="stylesheet" href="style.css">
+    <script src="index.js"defer></script>
+    <title>Como vai ser</title>
+</head>
+<body><h1>Como a gente vai sair?</h1>
+<label for="gasto">Quantos reais ficou a sua compra?</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<input type="text" id="gasto" placeholder="R$ .."><br><br><br><br>
+    <select id="pagamento">
+        <option selected disabled>Forma de pagamento</option>
+        <optgroup label="Dinheiro">
+        <option value="dinheiro1">A vista em dinheiro</option>
+        <option value="dinheiro2">2 vezes no boleto</option>
+        <option value="dinheiro3">3 vezes no boleto</option>
+        </optgroup>
+        <optgroup label="Cartão">
+        <option value="cartao1">A vista no cartão</option>
+        <option value="cartao2">2 vezes no cartão</option>
+        <option value="cartao3">3 vezes no cartão</option>
+        </optgroup>
+    </select>
+<br><br><br><button onclick="calculo()">Vamos calcular !!</button><br><br>
+<p id="resultado"></p>
+    
+</body>
+</html>

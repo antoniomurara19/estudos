@@ -1,0 +1,27 @@
+body{
+    background-color: #b194c4;
+}
+
+h1{ color: white;
+font-size:50px;
+}
+
+label{color: white;
+    font-family: 'Franklin Gothic Medium';
+    font-size:17px;
+}
+input{width:200px;
+        height:15px;
+        color: white;
+        border:solid black 3px;
+        background: #453a4c;
+}
+h2{color:white;
+font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+header{
+    background-color:#483d8b;
+    margin-left: -8px;
+    margin-right: -8px;
+    margin-top: -34px;
+}

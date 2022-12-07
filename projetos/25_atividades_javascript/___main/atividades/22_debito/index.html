@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Antônio Murara Zabala">
+    <link rel="stylesheet" href="style.css">
+    <script src="index.js"defer></script>
+    <title>Saldo Final</title>
+</head>
+<body><header><h1>Nossa conta trancanda</h1></header><br>
+
+    <label for="saldo_antigo">Digite seu saldo antigo: </label>
+    <input required type="text" id="saldo_antigo" placeholder="Saldo antigo..."><br><br>
+
+    <label for="debito">Digite seu débito: </label>
+    <input type="text" id="debito" placeholder="Débito..."><br><br>
+
+
+    <label for="credito">Digite seu crédito: </label>
+    <input type="text" id="credito" placeholder="Crédito..."><br><br><br><br>
+
+    <button onclick="calculo()">Saldo Atual</button>
+    <p id="final"></p>
+    
+    
+</body>
+</html>

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Antônio Murara Zabala">
+    <script src="index.js" defer></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Volume de detergente</title>
+</head>
+<body>
+    <header><br><h1 style="font-family:helvetica;text-align: center;">Fábrica de envazamento de cilindros</h1><br></header>
+
+    <h2>Informações da fábrica:</h2>
+
+    <label for="raio">Raio em cm: </label>
+    <input id="raio" type="number"></input><br><br>
+
+    <label for="altura">Altura em cm: </label>
+    <input id="altura" type="number"></input><br><br>
+
+    <label for="hora">Frascos envasados por hora: </label>
+    <input id="hora" type="number"></input><br><br>
+
+    <label for="dia">Horas de trabalho por dia: </label>
+    <input id="dia" type="number"></input><br><br>
+
+    <label for="mes">Dias trabalhados por mês:</label>
+    <input id="mes" type="number"></input><br><br>
+
+    <button onclick="volume()">Volume do mês</button><br><br>
+    <p id="volume" style="color:white;
+    font-family: 'Franklin Gothic Medium';
+    font-size:17px;""></p><br>
+
+
+</body>
+</html>

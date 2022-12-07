@@ -1,0 +1,85 @@
+function calculo(){
+let cq=7.9,mq=5.75,b=11.35,cb=14.6,ce=15.4,cf=12.9,r=4.9,s=4.3,c=3.5,cl=4.2
+
+    tecla = document.getElementById("comida").value
+    mais = document.getElementById("tem").value
+    quantidade = Number(document.getElementById("qnt").value)
+    
+    res1 = document.getElementById("resultado1")
+    res2 = document.getElementById("resultado2")
+    res3 = document.getElementById("resultado3")
+    res4 = document.getElementById("resultado4")
+    res5 = document.getElementById("resultado5")
+    res6 = document.getElementById("resultado6")
+    res7 = document.getElementById("resultado7")
+    res8 = document.getElementById("resultado8")
+    res9 = document.getElementById("resultado9")
+    res10 = document.getElementById("resultado10")
+   
+    
+
+    if (tecla = "CQ" || "cq"){
+        fim1 = cq * quantidade
+        res1.innerHTML = "Ficou R$" + fim1.toFixed(1)
+
+    }if (tecla = "MQ" || "mq"){
+        fim2 = mq * quantidade
+        res2.innerHTML = "Ficou R$" + fim2.toFixed(1)
+
+    }else if (tecla = "B" || "b"){
+        fim3 = b * quantidade
+        res3.innerHTML = "Ficou R$" + fim3.toFixed(1)
+
+    }else if (tecla = "CB" || "cb"){
+        fim4 = cb * quantidade
+        res4.innerHTML = "Ficou R$" + fim4.toFixed(1)
+
+    }else if (tecla = "CE" || "ce"){
+        fim5 = ce * quantidade
+        res5.innerHTML = "Ficou R$" + fim5.toFixed(1)
+
+    }else if (tecla = "CF" || "cf"){
+        fim6 = cf * quantidade
+        res6.innerHTML = "Ficou R$" + fim6.toFixed(1)
+
+    }else if (tecla = "R" || "R"){
+        fim7 = r * quantidade
+        res7.innerHTML = "Ficou R$" + fim7.toFixed(1)
+
+    }else if (tecla = "S" || "s"){
+        fim8 = s * quantidade
+        res8.innerHTML = "Ficou R$" + fim8.toFixed(1)
+
+    }else if (tecla = "C" || "c"){
+        fim9 = c * quantidade
+        res9.innerHTML = "Ficou R$" + fim9.toFixed(1)
+
+    }else if (tecla = "CL" || "cl"){
+        fim10 = cl * quantidade
+        res10.innerHTML = "Ficou R$" + fim10.toFixed(1)
+
+    }
+}
+
+
+
+
+ function final(){let cq=7.9,mq=5.75,b=11.35,cb=14.6,ce=15.4,cf=12.9,r=4.9,s=4.3,c=3.5,cl=4.2,fim11
+
+        quantidade = Number(document.getElementById("qnt").value)
+
+        fim1 = cq * quantidade
+        fim2 = mq * quantidade
+        fim3 = b * quantidade
+        fim4 = cb * quantidade
+        fim5 = ce * quantidade
+        fim6 = cf * quantidade
+        fim7 = r * quantidade
+        fim8 = s * quantidade
+        fim9 = c * quantidade
+        fim10 = cl * quantidade
+
+        fim11 = fim1 + fim2 + fim3 + fim4 +fim5 +fim6 +fim7 +fim8 +fim9 +fim10
+
+        console.log(fim11)
+    }
