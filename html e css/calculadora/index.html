@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Calculadora</title>
+    <link
+      href="http://fonts.googleapis.com/css?family=Roboto"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <link rel="stylesheet" href="estilo.css" />
+    <script src="java.js" defer></script>
+  </head>
+  <body>
+    <br><br><br><br>
+      <div class="conteudo">
+      <div class="formulario">
+      <form method="" action="">
+      <div>
+      <h2 class="cabecalho">Calculadora</h2>
+      </div>
+      <div class="campo">
+      <label>Valor 1:</label>
+      <input type="text" id="num1">
+      </div>
+      <div class="campo">
+      <label>Valor 2:</label>
+      <input type="text" id="num2">
+      </div>
+      <div class="campo">
+
+      <label>Operação:</label>
+      <select name="operacao" id="operacao">
+      <option value="" selected disabled>Selecione</option>
+      <option value="+">Adição</option>
+      <option value="-">Subtração</option>
+      <option value="/">Divisão</option>
+      <option value="*">Multiplicação</option>
+      </select>
+      
+      </div>
+      <div class="botao">
+      <button onclick="calculo()" type="button">Calcular</button>
+    </div>
+    <div class="campo">
+    <label>Resultado:</label>
+    <p  class="resultado" id="resultado">-</p>
+    </div>
+    </form>
+    </div>
+   </body>
+   </html>

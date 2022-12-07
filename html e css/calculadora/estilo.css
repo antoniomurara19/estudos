@@ -1,0 +1,104 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+  }
+  
+  body {
+    /* background-image:url("b.jpg"); */
+    background-image: linear-gradient(to right,rgb(110, 0, 123),darkblue,rgb(0, 191, 255),green,yellow,orange,red);
+    opacity: 0.97;
+    font-family: "Roboto", sans-serif;
+  }
+  
+  label {
+    color: #ffffff;
+  }
+  
+  button {
+    padding: 5px 30px;
+    margin-top: 10px;
+    background-color: #fff;
+    color: #000000;
+    border: 1px solid #2596be;
+    font-size: 16px;
+  }
+  
+  button:hover {
+    background-color: orange;
+    color: #fff;
+  }
+  
+  .conteudo {
+    width: auto;
+    max-width: 500px;
+    padding-top: 0px;
+    margin: auto;
+    height: auto;
+    max-height: 900px;
+    background-color: #fff;
+  }
+  
+  .formulario {
+    height: auto;
+    margin: 0px 0px;
+    padding: 30px 10px 50px 10px;
+    background-color: rgb(52, 0, 92);
+  }
+  
+  form {
+    width: auto;
+    margin: 0px 40px;
+  }
+  
+  .cabecalho {
+    color: #ffffff;
+    padding: 10px;
+    text-align: center;
+    font-size: 40px;
+  }
+  
+  .campo {
+    padding: 5px 10px;
+    width: 100%;
+  }
+  
+  .campo input {
+    width: 100%;
+    border: 1px solid #2596be;
+    font-size: 16px;
+    height: 30px;
+    padding: 5px 5px;
+  }
+  
+  .campo input:focus {
+    outline: none;
+  }
+  
+  .campo select {
+    width: 100%;
+    border: 1px solid #2596be;
+    height: 30px;
+    font-size: 16px;
+    background-color: #fff;
+    text-align: center;
+  }
+  
+  .campo select:focus {
+    outline: none;
+  }
+  
+  .botao {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .resultado {
+    padding: 5px;
+    margin-top: 10px;
+    background-color: #fff;
+    border: 1px solid #2596be;
+    display: block;
+  }
+  
