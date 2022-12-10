@@ -51,7 +51,7 @@ function benati(){
 function rayphou(){
     let tudo = document.getElementById("tudo")
     tudo.style.backgroundImage = "url(img/john.gif)"
-    let audio = new Audio('img/sapao.mp3')
+    let audio = new Audio('img/gothenburg.mp3')
     audio.play()
 }
 
